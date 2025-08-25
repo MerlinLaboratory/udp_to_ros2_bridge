@@ -12,18 +12,6 @@ This package listens on a UDP port and republishes incoming messages on a config
 - Pure Python implementation compatible with ROS 2 Humble.
 - Clean separation of UDP listener (`UDPNode`) and ROS 2 node.
 
----
-
-## Package Structure
-
-udp_to_ros2_bridge/
-├── udp_to_ros2_bridge_node.py   # Main ROS 2 node
-├── udp_node.py                  # UDP helper class
-├── launch/udp_to_ros2_bridge_launch.py
-├── config/comm_param.yaml
-├── resource/udp_to_ros2_bridge  # required empty resource file
-├── __init__.py
-└── package.xml
 
 ---
 
