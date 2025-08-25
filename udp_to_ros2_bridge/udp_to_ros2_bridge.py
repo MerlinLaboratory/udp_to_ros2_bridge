@@ -16,8 +16,8 @@ class UDPBridge(Node):
 
         # Declare parameters
         self.declare_parameter("communication.IP", "0.0.0.0")
-        self.declare_parameter("communication.port", 61559)
-        self.declare_parameter("ros_topic", "udp_raw")  # default topic
+        self.declare_parameter("communication.port", 61557)
+        self.declare_parameter("ros_topic", "tactile_sensors_from_udp")  # default topic
 
         # Retrieve parameters
         self._ip = self.get_parameter("communication.IP").get_parameter_value().string_value
