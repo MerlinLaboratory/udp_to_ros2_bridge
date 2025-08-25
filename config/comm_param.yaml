@@ -1,0 +1,6 @@
+udp_to_ros2_bridge:  # Node name
+  ros__parameters:
+    communication:
+      IP: 192.168.125.100   # Your UDP host IP
+      port: 61559            # UDP port to listen on
+    ros_topic: "tactile_sensors_from_udp"     # Topic name for publishing UDP messages
